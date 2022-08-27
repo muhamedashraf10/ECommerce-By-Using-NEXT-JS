@@ -1,0 +1,47 @@
+.back {
+  background-image: url("./../public/arrival-bg.png");
+  background-size: cover;
+  height: 90vh;
+  background-position: top;
+  overflow: hidden;
+  margin-top: 80px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  top: 20%;
+  left: 55%;
+}
+.h1 {
+  font-size: 72px;
+  color: #002c3e;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.button {
+  background-color: #f7444e;
+  color: #fff;
+  padding: 12px 45px;
+  border: 1px solid #f7444e;
+  font-weight: 700;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.button:hover {
+  background-color: transparent;
+  color: #f7444e;
+}

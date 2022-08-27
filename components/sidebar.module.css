@@ -1,0 +1,48 @@
+.sidebar {
+  position: fixed;
+  top: 35%;
+}
+.btn1 {
+  font-size: 25px;
+  color: #fff;
+  background-color: #4267b2;
+  padding: 7px;
+  width: 40px;
+  transition: all 0.8s;
+}
+.btn2 {
+  font-size: 25px;
+  color: #fff;
+  background-color: #cb2027;
+  padding: 7px;
+  width: 40px;
+  transition: all 0.8s;
+}
+.btn3 {
+  font-size: 25px;
+  color: #fff;
+  background-color: #55acee;
+  padding: 5px;
+  width: 40px;
+  transition: all 0.8s;
+}
+.btn4 {
+  font-size: 25px;
+  transition: all 0.8s;
+  color: #fff;
+  width: 40px;
+  background-color: #95d03a;
+  padding: 7px;
+}
+.btn1:hover {
+  width: 100px;
+}
+.btn2:hover {
+  width: 100px;
+}
+.btn3:hover {
+  width: 100px;
+}
+.btn4:hover {
+  width: 100px;
+}

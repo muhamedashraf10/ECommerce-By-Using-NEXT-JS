@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content {
+  margin-top: 50px;
+}
+.h1 {
+  text-align: center;
+  color: #f7444e;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+.h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #f7444e;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.span {
+  color: #0c0c0c;
+}

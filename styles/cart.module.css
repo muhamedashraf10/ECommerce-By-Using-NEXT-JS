@@ -1,0 +1,218 @@
+.nav {
+  background-color: #f7444e;
+  color: #fff;
+  height: 120px;
+  font-size: 55px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartcontainer {
+  padding: 2rem 4rem;
+}
+.cartcontainer .h2 {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+.cartcontainer .titles {
+  margin: 2rem 0 1rem 0;
+}
+.cartcontainer .titles h3 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.cartitem,
+.cartcontainer .titles {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+}
+.cartitem {
+  border-top: 1px solid rgb(187, 187, 187);
+  padding: 1rem 0;
+}
+.cartcontainer .titles .producttitle {
+  padding-left: 0.5rem;
+}
+
+.cartcontainer .titles .total {
+  padding-right: 0.5rem;
+  justify-self: right;
+}
+.cartitem .cartproduct {
+  display: flex;
+}
+.cartitem .cartproduct img {
+  width: 100px;
+  max-width: 100%;
+  margin-right: 1.8rem;
+}
+.cartitem .cartproduct .div {
+  margin-left: 10px;
+}
+.cartitem .cartproduct h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  color: #f7444e;
+}
+.cartitem .cartproduct p {
+  color: #9e9e9e;
+  font-size: 16px;
+  font-weight: 400;
+}
+.cartitem .cartproduct button {
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  /* margin-left: 6rem; */
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  background: #fff;
+  color: gray;
+  border: 1px solid #9e9e9e;
+}
+.cartitem .cartproduct .button:hover {
+  color: black;
+}
+
+.cartitem .cartproductquantity {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 130px;
+  max-width: 100%;
+  border: 0.5px solid rgb(177, 177, 177);
+  border-radius: 5px;
+}
+.cartitem .cartproductquantity .button {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+}
+.cartitem .cartproductprice {
+  color: #9e9e9e;
+  font-weight: 700;
+}
+.cartitem .cartproductquantity .count {
+  padding: 0.7rem 0;
+}
+.cartitem .cartproducttotalprice {
+  padding-right: 0.5rem;
+  justify-self: right;
+  font-weight: 700;
+  color: #f7444e;
+}
+
+/* cart summary */
+.cartsummary {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid rgb(187, 187, 187);
+  padding-top: 2rem;
+}
+.cartsummary .clearbtn {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 400;
+  letter-spacing: 1.15px;
+  border: 0.5px solid rgb(177, 177, 177);
+  color: gray;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+.cartcheckout {
+  width: 270px;
+  max-width: 100%;
+}
+.cartcheckout .subtotal {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.cartcheckout .amount {
+  font-weight: 700;
+}
+.cartcheckout .p {
+  font-size: 14px;
+  font-weight: 200;
+  margin: 0.5rem 0;
+}
+.cartcheckout .button {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 400;
+  letter-spacing: 1.15px;
+  background-color: #f7444e;
+  color: #f9f9f9;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.continueshopping,
+.startshopping {
+  margin-top: 1rem;
+}
+.continueshopping a,
+.startshopping a {
+  color: gray;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.icon {
+  cursor: pointer;
+  color: gray;
+}
+.continueshopping a span,
+.startshopping a span {
+  margin-left: 0.5rem;
+}
+.continueshopping a span,
+.startshopping a span {
+  margin-left: 0.5rem;
+}
+.cartempty {
+  font-size: 17px;
+  color: rgb(84, 84, 84);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cartempty img {
+  width: 600px;
+  height: 450px;
+}
+
+.cartempty h2 {
+  color: #f7444e;
+  font-size: 25px;
+  font-weight: bold;
+}
+.cartempty p span {
+  color: #f7444e;
+  font-size: 18px;
+  font-weight: bold;
+}
+.startshopping .ico {
+  color: #f7444e;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

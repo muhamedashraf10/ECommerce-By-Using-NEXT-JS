@@ -1,0 +1,40 @@
+.active {
+  color: #f7444e;
+}
+.notactive {
+  color: #0c0c0c;
+}
+.div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #002c3e;
+}
+.div h2 span {
+  color: #f7444e;
+  font-size: 40px;
+}
+.bags {
+  display: flex;
+  align-items: center;
+}
+.span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: #f7444e;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
+  position: absolute;
+  top: 18px;
+  right: 62px;
+}
